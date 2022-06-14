@@ -6,7 +6,6 @@ version: 2.2.30
 #   - Kevin Segaud <segaud.kevin@gmail.com>
 homepage: https://github.com/Jaguar-dart/jaguar_orm
 # documentation:
-publish_to: none
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -14,11 +13,11 @@ environment:
 dependencies:
   jaguar_query: # ^2.2.9
     git:
-      url: https://github.com/isaacfi/jaguar_orm_nullsafe.git
+      url: https://github.com/dingkangtan/jaguar_orm_nullsafe.git
       path: query
   jaguar_orm: # ^2.2.7
     git:
-      url: https://github.com/isaacfi/jaguar_orm_nullsafe.git
+      url: https://github.com/dingkangtan/jaguar_orm_nullsafe.git
       path: orm
   analyzer: ^1.7.2
   build: ^2.1.0

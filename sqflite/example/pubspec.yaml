@@ -7,7 +7,6 @@ version: 2.2.9
 # - Aumard Jimmy <jimmy.aumard@gmail.com>
 homepage: https://github.com/Jaguar-dart/jaguar_orm
 documentation:
-publish_to: none
 
 environment:
   sdk: '>=2.0.0-dev.65.0 <3.0.0'

@@ -5,7 +5,6 @@ version: 2.2.7
 #   - Ravi Teja Gudapati <tejainece@gmail.com>
 homepage: https://github.com/Jaguar-dart/jaguar_orm
 # documentation:
-publish_to: none
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -13,7 +12,7 @@ environment:
 dependencies:
   jaguar_query: # ^2.2.9
     git:
-      url: https://github.com/isaacfi/jaguar_orm_nullsafe.git
+      url: https://github.com/dingkangtan/jaguar_orm_nullsafe.git
       path: query
   quiver: ^3.0.1
   path: ^1.8.0
