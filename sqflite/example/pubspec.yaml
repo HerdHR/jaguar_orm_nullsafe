@@ -19,7 +19,6 @@ dependencies:
     sdk: flutter
   jaguar_query_sqflite:
     path: ../
-  analyzer: ^4.1.0
 
 dev_dependencies:
   flutter_test:
