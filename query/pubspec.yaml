@@ -6,10 +6,10 @@ version: 2.2.9
 # - Kevin Segaud <segaud.kevin@gmail.com>
 homepage: https://github.com/Jaguar-dart/jaguar_orm
 # documentation:
-# publish_to: none
+publish_to: none
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   meta: ^1.7.0

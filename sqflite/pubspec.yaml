@@ -7,20 +7,20 @@ version: 2.2.11
 #   - Aumard Jimmy <jimmy.aumard@gmail.com>
 homepage: https://github.com/Jaguar-dart/jaguar_orm
 # documentation:
-# publish_to: none
+publish_to: none
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 flutter:
 
 dependencies:
   flutter:
     sdk: flutter
-  sqflite: ^2.0.2
+  sqflite: ^2.2.8+4
   jaguar_query: # ^2.2.9
     git:
-      url: https://github.com/dingkangtan/jaguar_orm_nullsafe.git
+      url: https://github.com/HerdHR/jaguar_orm_nullsafe.git
       path: query
 
 dev_dependencies:
